@@ -5,16 +5,24 @@ body{
 h1{
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
+    line-height: 40px;
 }
 h2 {
     font-size: 48px;
-    font-weight:bold;
+    font-weight: 800;
 }
 h3 {
     font-size: 36px;
+    font-weight: 800;
+}
+h5{
+    font-size:24px;
+    margin: 0;
+    font-weight: 600;
 }
 h6 {
     font-size: 20px;
+    font-weight: 600;
 }
 p{
     font-size: 16px;
@@ -22,12 +30,16 @@ p{
 .top-head {
     border-left: 5px solid #FF5959;
     padding-left: 40px;
-    border-image-slice: 8;
+    border-image-slice: 1;
 }
 
 #top-head {
     font-size: 18px;
     color: #3E3E3E;
+}
+#heading{
+    padding-left: 0px;
+    padding-top: 80px;
 }
 .button-link {
     text-decoration:none;
@@ -52,7 +64,8 @@ p{
 }
 .flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin: 0 40px 100px 40px;
+    padding: 0 60px;
 }
 .half-width {
     width: 50%;
@@ -60,45 +73,45 @@ p{
     padding-right: 5%;
 }
 .half-width img{
-    width: 90%;
-}
-#new-mission{
-    padding-left:5%;
+    width: 100%;
 }
 #new-mission h2 {
     text-align: center;
 }
 #mission {
-    background-color: rgba(79, 157, 166, 0.1); 
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-left: 0; 
 }
 #vision {
     background-color: rgba(255, 89, 89, 0.1); 
 }
 #goals {
-    background-color: rgb(255, 244, 214); 
+    background-color: rgb(255, 244, 214);
+    margin-right: 0px;
 }
 .one-third{
     width: 33%;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 10px;
 }
 .one-third img {
-    width: 90%;
+    width: 70%;
 }
 #develop {
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 20%;
-    padding-left: 5%;
+    
 }
 #know {
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 10%;
+    background-size: 15%;
     background-position-y:bottom;
+    padding-bottom: 40px;
 }
 footer {
     background-color: black;
@@ -108,17 +121,11 @@ footer {
 }
 .width35 {
     width: 35%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 .width65 {
     width: 65%;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    /* margin-left: 2%;  */
+    margin-right: 2%; 
 }
 .width65 p{
     color: #3E3E3E;
@@ -130,25 +137,28 @@ footer {
     width: 90%;
 }
 .horizontal {
-    background-image:linear-gradient(rgba(79, 157, 166, 0.5), rgba(79, 157, 166, 0.5));
+    background-image:linear-gradient(rgba(79, 157, 166, 0.5), rgba(79, 157, 166, 0.1));
     border-radius: 10px;
     padding: 2px 20px;
     
 }
 
 .horizontal h6 {
-        line-height: 0.2;
+       margin: 5px;
+
 }
 .horizontal p {
     line-height: 1.1;
 }
 #achievement {
-    margin: 0 80px 100px 80px;
+    margin: 0 100px 100px 100px;
     background-color: rgba(79, 157, 166, 0.1);
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
 }
-
+#achievement h2{
+    margin: 0px;
+}
 #vertex {
     margin: 20px 80px 0 40px;
 }
